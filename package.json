@@ -1,0 +1,29 @@
+{
+  "name": "DarkGolden",
+  "description": "tema dark",
+  "displayername": "Teme",
+  "version": "2.0.0",
+  "keywords": ["theme","Golden Dark","Davzzs"],
+  "publisher": "Davzzs",
+  "engines" : { 
+    "vscode" : "1.83.1"
+},
+"categories": ["Themes"],
+"contributes": {
+"themes": [
+{
+"label": "dark golden",
+"uiTheme": "vs-dark",
+"path": "./themes/DarkGolden.json"
+}
+]
+},
+"scripts": {
+"package": "vsce package --no-yarn",
+"publish": "vsce publish --no-yarn"
+},
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^1.83.1"
+  }
+}
